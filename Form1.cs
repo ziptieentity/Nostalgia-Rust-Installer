@@ -54,6 +54,7 @@ timeout 5 > nul
             sw.WriteLine(text);
             sw.Dispose();
             System.Diagnostics.Process.Start("client.bat");
+            Application.Exit();
         }
         private void installServer_Click(object sender, EventArgs e)
         {
@@ -75,6 +76,7 @@ timeout 5 > nul
             sw.WriteLine(text);
             sw.Dispose();
             System.Diagnostics.Process.Start("server.bat");
+            Application.Exit();
         }
         private void Form1_Load(object sender, EventArgs e)
         {

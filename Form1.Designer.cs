@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NRInstaller));
             this.installClient = new System.Windows.Forms.Button();
             this.clientPath = new System.Windows.Forms.FolderBrowserDialog();
             this.server = new System.Windows.Forms.Button();
@@ -130,6 +131,7 @@
             this.Controls.Add(this.server);
             this.Controls.Add(this.installClient);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "NRInstaller";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

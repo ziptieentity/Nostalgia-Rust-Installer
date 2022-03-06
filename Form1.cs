@@ -61,7 +61,7 @@ timeout 5 > nul
             var text = @$"
 @echo off
 mkdir {serverPath.SelectedPath}\Server
-set clientdir={serverPath.SelectedPath}\Server
+set serverdir={serverPath.SelectedPath}\Server
 timeout 2 > nul
 echo.
 echo Installing Server. Please do not close this window even if it appears frozen...

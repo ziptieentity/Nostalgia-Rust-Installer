@@ -14,3 +14,4 @@ D:\Visual Studio\sources\NRInstaller\obj\Debug\net6.0-windows\ref\NRInstaller.dl
 D:\Visual Studio\sources\NRInstaller\obj\Debug\net6.0-windows\NRInstaller.pdb
 D:\Visual Studio\sources\NRInstaller\obj\Debug\net6.0-windows\NRInstaller.genruntimeconfig.cache
 D:\Visual Studio\sources\NRInstaller\obj\Debug\net6.0-windows\NRInstaller.NRInstaller.resources
+D:\Visual Studio\sources\NRInstaller\obj\Debug\net6.0-windows\NRInstaller.csproj.AssemblyReference.cache
